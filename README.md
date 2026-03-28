@@ -16,32 +16,34 @@ Built as the **Graduation Project for NextLeap PM Fellowship — Cohort 44** (Ma
 
 ## 🔍 The Problem
 
-Gifting is not a product discovery problem. It's a **confidence problem.**
+Gifting is not a product discovery problem. It’s a **confidence problem.**
 
-People don't struggle to find gifts — they struggle to feel sure the gift is right for *this specific person.*
+People don’t struggle to find gifts — they struggle to feel sure the gift is right for *this specific person.*
 
 | Stat | Finding |
 |---|---|
 | 3.5 / 5 | Average gifting stress score |
 | 52% | Regretted a gift they gave |
-| 42% | Top fear: "Will they like it?" |
+| 42% | Top fear: “Will they like it?” |
 | 90% | Spend 30+ minutes on a single gift decision |
 | 87% | Want context-driven guidance, not just options |
 
-> *"People don't run out of options. They run out of confidence."*
+> *“People don’t run out of options. They run out of confidence.”*
 
 ---
 
-## 📦 What's in This Repo
+## 📦 What’s in This Repo
 
 | File | Description |
 |---|---|
-| [`NL-GiftRight.pdf`](./NL-GiftRight.pdf) | Final 10-slide deck |
-| [`data/survey-data.xlsx`](./data/survey-data.xlsx) | Raw Jotform survey data (n=31) |
-| [`research/data-flow-diagram.jpg`](./research/data-flow-diagram.jpg) | AI data flow diagram |
-| [`research/end-to-end-journey.jpg`](./research/end-to-end-journey.jpg) | End-to-end customer journey map |
-| [`research/comparison-table.jpg`](./research/comparison-table.jpg) | Competitor analysis table |
-| [`research/problem-framing-canvas.jpg`](./research/problem-framing-canvas.jpg) | Problem framing canvas |
+| [`NL GiftRight.pdf`](./NL%20GiftRight.pdf) | Final 10-slide deck |
+| [`survey-data.xlsx.xlsx`](./survey-data.xlsx.xlsx) | Raw Jotform survey data (n=31) |
+| [`Data flow diagram.png`](./Data%20flow%20diagram.png) | AI data flow diagram |
+| [`end-to-end-journey.jpg.png`](./end-to-end-journey.jpg.png) | End-to-end customer journey map |
+| [`comparison table.png`](./comparison%20table.png) | Competitor analysis table |
+| [`problem-framing-canvas.png`](./problem-framing-canvas.png) | Problem framing canvas |
+| [`Generated_chart__budget_bar.png.png`](./Generated_chart__budget_bar.png.png) | Survey chart — gift budget distribution |
+| [`Generated_chart__feature_preference_donut.png.png`](./Generated_chart__feature_preference_donut.png.png) | Survey chart — feature preference breakdown |
 
 ---
 
@@ -70,33 +72,39 @@ People don't struggle to find gifts — they struggle to feel sure the gift is r
 5 in-depth interviews (18–25 yr olds, students & working professionals across India). Audio recordings available on Google Drive.
 
 **Key finding across all 5 interviews:**
-> Confidence in gifting = prior knowledge of the person. GiftRight's real job is to *reconstruct the feeling of knowing someone deeply* for occasions where that knowledge is incomplete.
+> Confidence in gifting = prior knowledge of the person. GiftRight’s real job is to *reconstruct the feeling of knowing someone deeply* for occasions where that knowledge is incomplete.
 
 ### Hypotheses Validated
 
 | Hypothesis | Verdict | Evidence |
 |---|---|---|
 | H1 — Storytelling / Narrative Gap | ✅ Strongly Confirmed | 4/5 best-ever gifts were non-material or had a strong personal story |
-| H2 — Social Judgment Fear | ✅ Confirmed | *"The gift says something about my personality."* — Shreya Pandey |
+| H2 — Social Judgment Fear | ✅ Confirmed | *“The gift says something about my personality.”* — Shreya Pandey |
 | H3 — AI misses emotional layer | ✅ Confirmed | 2/2 ChatGPT users cited missing personal touch |
-| H4 — Curation Fatigue | ✅ Confirmed | *"Tell me with reasons — not just more options."* — Prayas Gupta |
+| H4 — Curation Fatigue | ✅ Confirmed | *“Tell me with reasons — not just more options.”* — Prayas Gupta |
 | H5 — Indian social visibility | ⚠️ Partially Confirmed | Instagram matters for 4/5; group UPI pooling weaker than assumed |
 
 ---
 
-## 🖼️ Diagrams
+## 🖼️ Diagrams & Charts
 
 ### Data Flow
-![Data Flow Diagram](./research/data-flow-diagram.jpg)
+![Data Flow Diagram](./Data%20flow%20diagram.png)
 
 ### End-to-End Customer Journey
-![End-to-End Journey](./research/end-to-end-journey.jpg)
+![End-to-End Journey](./end-to-end-journey.jpg.png)
 
 ### Competitor Analysis
-![Competitor Analysis](./research/comparison-table.jpg)
+![Competitor Analysis](./comparison%20table.png)
 
 ### Problem Framing Canvas
-![Problem Framing Canvas](./research/problem-framing-canvas.jpg)
+![Problem Framing Canvas](./problem-framing-canvas.png)
+
+### Survey — Gift Budget Distribution
+![Budget Chart](./Generated_chart__budget_bar.png.png)
+
+### Survey — Feature Preference Breakdown
+![Feature Preference Chart](./Generated_chart__feature_preference_donut.png.png)
 
 ---
 
@@ -104,7 +112,7 @@ People don't struggle to find gifts — they struggle to feel sure the gift is r
 
 1. **Context Input** — User describes the recipient: relationship, personality, occasion, budget
 2. **AI Curation** — LLM generates 6–8 gift directions tailored to the person
-3. **Confidence Layer** — Top 3 gifts surfaced with *why this works* explanations using the user's own words
+3. **Confidence Layer** — Top 3 gifts surfaced with *why this works* explanations using the user’s own words
 4. **Final Decision** — User picks with confidence; shareable via WhatsApp
 
 ---
