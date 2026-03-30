@@ -16,23 +16,23 @@ Built as the **Graduation Project for NextLeap PM Fellowship — Cohort 44** (Ma
 
 ## 🔍 The Problem
 
-Gifting is not a product discovery problem. It’s a **confidence problem.**
+Gifting is not a product discovery problem. It's a **confidence problem.**
 
-People don’t struggle to find gifts — they struggle to feel sure the gift is right for *this specific person.*
+People don't struggle to find gifts — they struggle to feel sure the gift is right for *this specific person.*
 
 | Stat | Finding |
 |---|---|
 | 3.5 / 5 | Average gifting stress score |
 | 52% | Regretted a gift they gave |
-| 42% | Top fear: “Will they like it?” |
+| 42% | Top fear: "Will they like it?" |
 | 90% | Spend 30+ minutes on a single gift decision |
 | 87% | Want context-driven guidance, not just options |
 
-> *“People don’t run out of options. They run out of confidence.”*
+> *"People don't run out of options. They run out of confidence."*
 
 ---
 
-## 📦 What’s in This Repo
+## 📦 What's in This Repo
 
 | File | Description |
 |---|---|
@@ -56,6 +56,7 @@ People don’t struggle to find gifts — they struggle to feel sure the gift is
 | 📝 Interview Notes + Synthesis | [Notion Page](https://www.notion.so/3314e0d023c68196b419f38f5aa48be7) |
 | 🗺️ End-to-End Customer Journey | [Whimsical](https://whimsical.com/capco72/end-to-end-journey-of-the-customer-4ivurv1maBXzoGbpra3Vak) |
 | 📊 Data Flow Diagram | [Whimsical](https://whimsical.com/capco72/data-flow-dig-graduatiopn-project-cohort-44-6idyat2ZLKiCLWwjZxGwom) |
+| 🤖 AI Prompts Documentation | [Notion Page](https://www.notion.so/AI-Prompts-Documentation-GiftRight-32e4e0d023c6818fbacdf60b54cdadd2) |
 
 ---
 
@@ -72,16 +73,16 @@ People don’t struggle to find gifts — they struggle to feel sure the gift is
 5 in-depth interviews (18–25 yr olds, students & working professionals across India). Audio recordings available on Google Drive.
 
 **Key finding across all 5 interviews:**
-> Confidence in gifting = prior knowledge of the person. GiftRight’s real job is to *reconstruct the feeling of knowing someone deeply* for occasions where that knowledge is incomplete.
+> Confidence in gifting = prior knowledge of the person. GiftRight's real job is to *reconstruct the feeling of knowing someone deeply* for occasions where that knowledge is incomplete.
 
 ### Hypotheses Validated
 
 | Hypothesis | Verdict | Evidence |
 |---|---|---|
 | H1 — Storytelling / Narrative Gap | ✅ Strongly Confirmed | 4/5 best-ever gifts were non-material or had a strong personal story |
-| H2 — Social Judgment Fear | ✅ Confirmed | *“The gift says something about my personality.”* — Shreya Pandey |
+| H2 — Social Judgment Fear | ✅ Confirmed | *"The gift says something about my personality."* — Shreya Pandey |
 | H3 — AI misses emotional layer | ✅ Confirmed | 2/2 ChatGPT users cited missing personal touch |
-| H4 — Curation Fatigue | ✅ Confirmed | *“Tell me with reasons — not just more options.”* — Prayas Gupta |
+| H4 — Curation Fatigue | ✅ Confirmed | *"Tell me with reasons — not just more options."* — Prayas Gupta |
 | H5 — Indian social visibility | ⚠️ Partially Confirmed | Instagram matters for 4/5; group UPI pooling weaker than assumed |
 
 ---
@@ -112,7 +113,7 @@ People don’t struggle to find gifts — they struggle to feel sure the gift is
 
 1. **Context Input** — User describes the recipient: relationship, personality, occasion, budget
 2. **AI Curation** — LLM generates 6–8 gift directions tailored to the person
-3. **Confidence Layer** — Top 3 gifts surfaced with *why this works* explanations using the user’s own words
+3. **Confidence Layer** — Top 3 gifts surfaced with *why this works* explanations using the user's own words
 4. **Final Decision** — User picks with confidence; shareable via WhatsApp
 
 ---
